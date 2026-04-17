@@ -1,220 +1,47 @@
-# RBKTN-TU-26-Full-Stack-Developer-Technical-Assessment
-# Full Stack Developer Technical Assessment
+# The Technical Assessment
 
-## Overview
+Ready to put your skills to the test and have some full-stack hacking fun? This assessment is like a day long solo sprint where you get to build a full stack JavaScript application using the skills and technologies you've worked with during the first half of the course. Expect to reinforce concepts and techniques you are familiar with and also to learn some new content.
 
-This assessment is designed to evaluate your ability to build a **full stack web application** using modern JavaScript technologies.
-You will build a **Team Task Manager** where users can create teams and collaborate on tasks.
+## Message from your instructional team
 
-The goal is to evaluate your understanding of:
+This is it guys! It all comes down to today. We believe that you made a tremendous effort in the last 3 months and we are proud of your improvement.
 
-* Full stack architecture
-* Authentication and authorization
-* API design
-* Database modeling
-* React application structure
-* Clean and maintainable code
+Keep pushing, keep working hard, keep believing in yourself and eventually, your efforts will pay off.
 
-You are **free to choose any database** you prefer (MongoDB, PostgreSQL, MySQL, SQLite, etc.).
+We hope to see results that reflect the dedication you have put in.
 
----
+Trust yourself, you know more than you think you do!
 
-# Project: Team Task Manager
+Good luck and make us proud! We believe in you!
 
-Build a full stack web application where users can create teams and manage tasks collaboratively.
+## Before Starting
 
----
+1. Confirm that all communication applications and tools are turned off, closed, put away
+1. Fork this repo and clone it. Do not push your work any time during this assessment.
 
-# Technical Requirements
+## Guidelines
 
-You must use:
+You must manage your time effectively to complete this assessment. This assessment will be evaluated as if it was a coding challenge given to you as part of a job application process. Not only will the functionality of your code be important, but also, the professionalism with which you write it. Consider the style and organization of your code. Make frequent commits with informative and consistent commit messages. Be professional and informative with your comments.
 
-* **Node.js**
-* **Express.js**
-* **React**
-* **Authentication using JWT**
+Each directory contains a prompt with work for you to complete, with instructions defined in their own README.
 
-Database:
+## Available resources
 
-You are **free to choose the database** you prefer.
+The ultimate goal of this assessment is to give you an opportunity to demonstrate your abilities as an engineer. Avoid anything that will obscure our ability and your ability to see your best efforts at work will undermine that goal.
 
-Examples:
+* You **may not** use a scaffolding tool (e.g. Yeoman) or starter repos unless specifically allowed in a prompt's README
+* You **may not** use any resources created at RBK by yourself, other students, or staff members
+  * e.g. lectures, sprints, MVP, past assessments, side projects, notes, mentor assignments, etc.
+* You **may** only use online resources specifically allowed in a prompt's README
+* You **may not** copy and paste from available online resources
 
-* MongoDB
-* PostgreSQL
-* MySQL
-* SQLite
-* Any other database you are comfortable with
+## Submitting Your Work
 
----
+At 5:00pm (or beforehand if you finish early):
 
-# Functional Requirements
-
-## 1. Authentication
-
-Users must be able to:
-
-* Register
-* Login
-* Logout
-
-Rules:
-
-* Passwords must be securely **hashed**
-* Authentication must use **JWT**
-* Some routes must be **protected**
-
-Protected routes should include:
-
-* Creating tasks
-* Creating teams
-* Viewing private team tasks
-
----
-
-# 2. User Profile
-
-Each user should have at least the following information:
-
-* name
-* email
-* password
-* role (user or admin)
-* createdAt
-
-Users must be able to:
-
-* View their profile
-* Update their name
-
----
-
-# 3. Teams
-
-A user should be able to create and manage teams.
-
-A team should include:
-
-* name
-* owner
-* members
-* createdAt
-
-Required features:
-
-* Create a team
-* Join a team using a team ID
-* View teams the user belongs to
-
----
-
-# 4. Tasks
-
-Tasks belong to a specific team.
-
-Each task should contain:
-
-* title
-* description
-* status (todo, doing, done)
-* assigned user
-* teamId
-* createdBy
-* createdAt
-
-Users must be able to:
-
-* Create tasks
-* Assign tasks to team members
-* Update task status
-* Delete their own tasks
-
----
-
-# Frontend Requirements
-
-Build a **React application** with the following pages:
-
-* Login page
-* Register page
-* Dashboard
-* Team page
-* Profile page
-
-### Dashboard
-
-The dashboard should display:
-
-* The teams the user belongs to
-* Tasks assigned to the user
-
-### Team Page
-
-The team page should display:
-
-* All team tasks
-* A form to create new tasks
-
----
-
-# General Requirements
-
-Your application should include:
-
-* A clear **folder structure**
-* Proper **API route organization**
-* **Error handling**
-* **Clean and readable code**
-
-You may use:
-
-* Axios or Fetch for API calls
-* React Router for navigation
-* Context API or another state management solution
-
-UI libraries are allowed but **not required**.
-
----
-
-# Bonus Features (Optional)
-
-These features are optional but will add extra value to your project:
-
-* Search tasks
-* Filter tasks by status
-* Role based permissions (admin can delete any task)
-* Pagination
-* Real-time updates using websockets
-* Task comments
-* Better UI/UX
-
----
-
-# Submission Instructions
-
-Please provide:
-
-1. A **GitHub repository**
-2. A **README explaining how to run the project**
-3. Clear instructions for:
-
-   * Installing dependencies
-   * Running the backend
-   * Running the frontend
-
----
-
-# Evaluation Criteria
-
-Your submission will be evaluated based on:
-
-* Application architecture
-* Authentication implementation
-* API design
-* Database modeling
-* Code quality and readability
-* Error handling
-* User experience
-
----
-
+1. Make a final commit
+1. Fill out the "How to start this app" section in the problem's `README.md` file if it's not done already
+1. Fill out the `closing_comments.txt` file.
+1. Commit the changes to `closing_comments.txt` and `README.md`.
+  - NOTE: This commit should only contain changes to these two files - no other changes are allowed
+1. Push your code to your github account.
